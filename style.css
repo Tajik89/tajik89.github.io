@@ -1,0 +1,284 @@
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: 'title-font';
+    src: url(./AovelSansRounded-rdDL.ttf);
+}
+#div-1 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 255, 110);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 75px;
+    width: 1350px;
+    height: 130px;
+}
+#div-2 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 1400px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+#div-3 {
+    opacity: 0;
+    background-color: rgb(0, 255, 110);
+    width: 1400px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: -69px;
+}
+#div-2:hover #div-3 {
+    opacity: 1;
+}
+#div-2:hover #p-4 {
+    color: black;
+}
+#div-2:hover #p-5 {
+    color: black;
+}
+
+#div-4 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 1400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#div-5 {
+    opacity: 0;
+    background-color: rgb(0, 255, 110);
+    width: 700px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: -69px;
+}
+#div-4:hover #div-5 {
+    opacity: 1;
+}
+#div-4:hover #p-6 {
+    color: black;
+}
+#div-4:hover #p-7 {
+    color: black;
+}
+#div-6 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 1400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#div-7 {
+    opacity: 0;
+    background-color: rgb(0, 255, 110);
+    width: 1400px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: -69px;
+}
+#div-6:hover #div-7 {
+    opacity: 1;
+}
+#div-6:hover #p-8 {
+    color: black;
+}
+#div-6:hover #p-9 {
+    color: black;
+}
+#div-8 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 1400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#div-9 {
+    opacity: 0;
+    background-color: rgb(0, 255, 110);
+    width: 1080px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: -69px;
+}
+#div-8:hover #div-9 {
+    opacity: 1;
+}
+#div-8:hover #p-10 {
+    color: black;
+}
+#div-8:hover #p-11 {
+    color: black;
+}
+#div-10 {
+    background-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 1400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#div-11 {
+    opacity: 0;
+    background-color: rgb(0, 255, 110);
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: -69px;
+}
+#div-10:hover #div-11 {
+    opacity: 1;
+}
+#div-10:hover #p-12 {
+    color: black;
+}
+#div-10:hover #p-13 {
+    color: black;
+}
+#clock {
+    font-family: title-font;
+    font-size: 30px;
+    color: white;
+    margin-left: 1200px;
+    margin-top: -70px;
+}
+.li-a {
+    color: rgb(0, 255, 110);
+    text-decoration: none;
+    font-family: title-font;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 255, 110);
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.li-a:hover {
+    background-color: rgb(0, 255, 110);
+    color: black;
+}
+#p-1 {
+    font-family: title-font;
+    font-size: 45px;
+    color: white;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+#p-2 {
+    font-family: title-font;
+    font-size: 20px;
+    color: rgb(0, 255, 225);
+    margin-top: -50px;
+    margin-left: 150px;
+}
+#p-3 {
+    font-family: title-font;
+    font-size: 50px;
+    color: rgb(0, 255, 110);
+    margin-left: 60px;
+    margin-top: 300px;
+}
+#p-4 {
+    color: rgb(0, 255, 225);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#p-5 {
+    color: rgb(0, 255, 110);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 1300px;
+    margin-top: -43px;
+}
+#p-6 {
+    color: rgb(0, 255, 225);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#p-7 {
+    color: rgb(0, 255, 110);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 630px;
+    margin-top: -43px;
+}
+#p-8 {
+    color: rgb(0, 255, 225);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#p-9 {
+    color: rgb(0, 255, 110);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 1300px;
+    margin-top: -43px;
+}
+#p-10 {
+    color: rgb(0, 255, 225);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#p-11 {
+    color: rgb(0, 255, 110);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 1000px;
+    margin-top: -43px;
+}
+#p-12 {
+    color: rgb(0, 255, 225);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#p-13 {
+    color: rgb(0, 255, 110);
+    font-family: title-font;
+    font-size: 30px;
+    margin-left: 315px;
+    margin-top: -43px;
+}
+#p-14 {
+    font-family: title-font;
+    font-size: 50px;
+    color: rgb(0, 255, 110);
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.p-15 {
+    font-family: title-font;
+    font-size: 50px;
+    color: white;
+    margin-left: 60px;
+    margin-top: 30px;
+}

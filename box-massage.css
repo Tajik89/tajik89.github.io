@@ -1,0 +1,61 @@
+.animated-box {
+    position: absolute;
+    top: 200px;
+    left: -100%;
+    width: 600px;
+    height: 90px;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    transition: left 0.5s ease;
+}
+.typewriter {
+    font-size: 60px;
+    color: white;
+    font-family: title-font;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    animation: typing 4s steps(30, end) 1s 1 normal both, blink-caret 0.75s step-end infinite;
+}
+.animated-box-2 {
+    position: absolute;
+    top: 300px;
+    left: -100%;
+    width: 500px;
+    height: 90px;
+    transform: translateX(165%);
+    height: 80px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    transition: left 0.5s ease;
+}
+.typewriter-2 {
+    font-size: 45px;
+    color: black;
+    font-family: title-font;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    animation: typing 4s steps(30, end) 1s 1 normal both, blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(0, 255, 110);
+    }
+}
