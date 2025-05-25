@@ -272,17 +272,17 @@
   }
   
   .layer1 {
-    background-image: url('./ScrollingImages/greenest.jpg');
+    background-image: url('greenest.jpg');
     transform: translateY(0);
   }
   
   .layer2 {
-    background-image: url('./ScrollingImages/darkest.jpg');
+    background-image: url('darkest.jpg');
     transform: translateY(0);
   }
   
   .layer3 {
-    background-image: url('./ScrollingImages/oltimest.jpg');
+    background-image: url('oltimest.jpg');
     transform: translateY(0);
   }
   body {
