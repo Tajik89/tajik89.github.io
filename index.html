@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TAKING | FlowTracking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">TAKING</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#" class="nav-item">Home</a></li>
+        <li><a href="#" class="nav-item">Projects</a></li>
+        <li><a href="#" class="nav-item">Workshops</a></li>
+        <li><a href="#" class="nav-item">About</a></li>
+        <li><a href="#" class="nav-item">Contact</a></li>
+        <li><a href="#" class="nav-item">Blog</a></li>
+        <li><a href="#" class="nav-item">Services</a></li>
+        <li><a href="#" class="nav-item">FAQ</a></li>
+        <li><a href="#" class="nav-item">Testimonials</a></li>
+        <li><a href="#" class="nav-item">Community</a></li>
+    </ul>
+    <div class="overlay" id="overlay"></div>
+  </nav>
+
+  <header>
+    <h1>TAKING | FlowTracking</h1>
+    <p>Where ideas flow, and tech takes over</p>
+    <button class="cta">Explore</button>
+  </header>
+
+  <section class="showcase">
+    <div class="showcase-content">
+      <h2>Unleash Your Creativity</h2>
+      <p>From ideas to impact — explore a curated showcase of powerful tools, platforms, and experiences that redefine development.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Smart Platform</h3>
+          <p>Build, deploy, and scale modern apps with no limits.</p>
+        </div>
+        <div class="card">
+          <h3>Interactive UI</h3>
+          <p>Animations and interactions that bring your projects to life.</p>
+        </div>
+        <div class="card">
+          <h3>Live Workshops</h3>
+          <p>Learn, share, and grow with our cutting-edge sessions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+
+  <section class="parallax">
+    <div class="parallax-content">
+      <h2>Experience the Depth</h2>
+      <p>Scroll down to feel the magic. Each layer moves at its own speed!</p>
+    </div>
+    <div class="parallax-layer layer1"></div>
+    <div class="parallax-layer layer2"></div>
+    <div class="parallax-layer layer3"></div>
+  </section>
+  <script src="./script.js"></script>
+  <section class="tech-stack">
+    <h2>The Tech Behind the Magic</h2>
+    <p>We build with modern technologies to keep things fast, secure, and scalable.</p>
+    <div class="tech-icons">
+      <div class="tech-item">Python</div>
+      <div class="tech-item">C++</div>
+      <div class="tech-item">C#</div>
+      <div class="tech-item">HTML</div>
+      <div class="tech-item">CSS</div>
+      <div class="tech-item">JavaScript</div>
+    </div>
+  </section>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav-links');
+    const overlay = document.getElementById('overlay');
+    const navItems = document.querySelectorAll('.nav-item');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+      overlay.classList.toggle('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      nav.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        nav.classList.remove('active');
+        overlay.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
